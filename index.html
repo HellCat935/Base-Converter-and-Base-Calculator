@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bases Converter and Base Calculator</title>
+</head>
+<body>
+    <div class="back">
+        <div>
+            <h1>Base Converter and Base Calculator</h1>
+            <h2>Teacher: Alassandra Natasha Aalcantara Barreiros Baganha</h2>
+            <h2>Stdent: Roberto Bezerra de Castro</h2>
+            <h3>The function is of this converter is help learn college subjet computacional thinking for scientist</h3>
+        </div>
+        <div class="container">
+            <h1>Base Converter</h1>
+            <input class="button" onclick="binary()" id="binary" type="radio" name="base" > <a class="text">Binary:</a>
+            <input class="number"  id="binaryText" type="text" value="">
+            <br>
+            <input class="button" onclick="decimal()" id="decimal" type="radio" name="base"><a class="text"> Decimal:</a>
+            <input class="number"  id="decimalText" type="text" value="">
+            <br>
+            <input class="button" onclick="hexadecimal()" id="hexadecimal" type="radio" name="base" > <a class="text">Hexadecimal:</a>
+            <input class="number" id="hexadecimalText" type="text" value="">
+            <br>
+            <input class="button" onclick="octal()" id="octal" type="radio" name="base" > <a class="text">Octal:   </a>
+            <input class="number" id="octalText" type="text" value="">
+            <br>
+          
+
+
+        </div>
+        <div class="container2">
+            <H1>Base Calculator</H1>
+            <input class="button"   id="octalCa" type="radio" name="baseCa" > <a class="text">Octal:
+            <input class="button"   id="decimalCa" type="radio" name="baseCa"><a class="text"> Decimal:</a>
+            <input class="button"   id="hexadecimalCa" type="radio" name="baseCa" > <a class="text">Hexadecimal:</a>
+            <input class="button"   id="binaryCa" type="radio" name="baseCa"><a class="text" > Binary:</a>
+            <br>
+
+
+
+            <input class="number" id="number1" type="text">
+            <input class="number" id="number2" type="text">
+            <br>
+            <button class="button2" onclick="div()" >/</button>
+            <button class="button2" onclick="mult()" >*</button>
+            <button class="button2" onclick="minus()" >-</button>
+            <button class="button2" onclick="plus()" >+</button>
+            <br>
+            <button class="button2" onclick="percent()" >%</button>
+            <button class="button2" onclick="pot()" >ˆ</button>
+            <br>
+            <br>
+            Result:<label class="result" id="result2"></label>
+
+
+        </div>
+    </div>
+    
+
+    
+
+
+</body>
+</html>
