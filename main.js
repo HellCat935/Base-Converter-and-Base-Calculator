@@ -114,12 +114,11 @@ function decimal() {
 
 
 
-const valor = 10 
+
 
 //  calculator
    function plus(){
 
-    valor = 11
     decimalValor = document.getElementById("decimalCa").checked
     hexadecimalValor = document.getElementById("hexadecimalCa").checked
     octalValor = document.getElementById("octalCa").checked
