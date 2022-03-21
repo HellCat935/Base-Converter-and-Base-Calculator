@@ -38,14 +38,19 @@ color:black;
 background-color:rgb(55, 139, 207);
 border-style: solid;
 border-color: black;
-padding: 5px;
+padding: 10px;
 border-radius: 5px;
 margin: 1px;
 height: 15px;
 width: 15px;
 font-size: 14px;
 
-
+}
+.button:hover {
+    background-color:rgb(31, 84, 128)
+}
+.button:active{
+    background-color:rgb(255, 66, 198)
 }
 .button2 {
     color:black;
