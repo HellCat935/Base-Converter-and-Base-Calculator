@@ -4,13 +4,26 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 .back {
-    background:linear-gradient(rgb(6, 101, 245),rgb(214, 17, 155) ) ;
-    height:100vh 
+background-image:url(https://i.natgeofe.com/k/6496b566-0510-4e92-84e8-7a0cf04aa505/red-fox-portrait_16x9.jpg);  
+background-repeat:no-repeat ;
+background-size:100%;
+height: 100vh;
+}
+.title {
+display: flex;
+flex-direction:column;
+width: 100%;
+
+justify-content:center;
+align-items: center;
+color: #5c5c5c;
+background-color: rgba(0,0,0,0.5);
+
 }
 .container {
-background-color: grey;
-border-style: solid;
-border-color: rgb(255, 66, 198);
+    width:430px;
+background-color: rgba(0, 0, 0, 0.3);
+border: 2px solid #f5f5f58e;
 position: absolute;
 top: 35%;
  left: 50%;
@@ -20,12 +33,34 @@ padding: 15px;
 
 
 }
+.colunm {
+    display: flex;
+
+    width: 100%;
+    
+  }
+.colunm .line {
+display: flex;
+align-items: center;
+
+}
+.colunm .line span {
+    color: #858585;
+    margin-left: 5px;
+    width: 100px;
+    font-weight: bold;
+    
+  }
+  .column .number {
+    margin-right: 80px;
+  }
+
 .container2 {
-    background-color: grey;
-    border-style: solid;
-    border-color: rgb(255, 66, 198);
+    width:430px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 2px solid #f5f5f58e;
     position: absolute;
-    top: 35%;
+    top: 40%;
      left: 50%;
     transform: translate(-50%, 60%);
     border-radius: 15px;
@@ -33,6 +68,7 @@ padding: 15px;
     
     
     }
+
 .button {
 color:black;
 background-color:rgb(55, 139, 207);
@@ -73,6 +109,7 @@ font-size: 14px;
     background-color:rgb(255, 66, 198)
 }
 .number {
+    width:160px;
     padding: 5px;
     margin:4px;
     border-style: solid;
@@ -98,4 +135,6 @@ font-size: 14px;
 .text{
  height:15px;
  width: 15px;
+ color: #f5f5f58e;
+ font-weight: bold;
 }

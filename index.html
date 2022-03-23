@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="back">
-        <div>
+        <div class="title">
             <h1>Base Converter and Base Calculator</h1>
             <h2>Teacher: Alassandra Natasha Alcantara Barreiros Baganha</h2>
             <h2>Student: Roberto Bezerra de Castro</h2>
@@ -18,28 +18,70 @@
         </div>
         <div class="container">
             <h1>Base Converter</h1>
-            <input class="button" onclick="binary()" id="binary" type="button" name="base" > <a class="text">Binary:</a>
-            <input class="number"  id="binaryText" type="text" value="">
-            <br>
-            <input class="button" onclick="decimal()" id="decimal" type="button" name="base"><a class="text"> Decimal:</a>
-            <input class="number"  id="decimalText" type="text" value="">
-            <br>
-            <input class="button" onclick="hexadecimal()" id="hexadecimal" type="button" name="base" > <a class="text">Hexadecimal:</a>
-            <input class="number" id="hexadecimalText" type="text" value="">
-            <br>
-            <input class="button" onclick="octal()"  id="octal" type="button" name="base" > <a class="text">Octal:   </a>
-            <input class="number" id="octalText" type="text" value="">
-            <br>
+            <div class="colunm">
+                <div class="line">
+                  <input class="button"
+                   onclick="binary()"
+                    id="binary"
+                    type="button"
+                     name="base" >
+                
+                   <span class="text">Binary:</span>
+                  </div>
+                <input class="number"  id="binaryText" type="text" value="">
+            </div>
+            
+            <div class="colunm">
+              <div class="line">
+                <input class="button"
+                 onclick="decimal()"
+                 id="decimal"
+                 type="button"
+                 name="base">
+              
+               <span class="text"> Decimal:</span>
+              </div>
+              <input class="number"  id="decimalText" type="text" value="">
+            </div>
+
+            <div class="colunm">
+              <div class="line">
+                <input
+                class="button"
+                onclick="hexadecimal()"
+                id="hexadecimal"
+                type="button"
+                name="base" >
+              
+              <span class="text">Hexadecimal:</span>
+            </div>
+              <input class="number" id="hexadecimalText" type="text" value="">
+            </div>
+            
+            <div class="colunm">
+              <div class="line">
+                <input
+                class="button"
+                onclick="octal()"
+                id="octal"
+                type="button"
+                name="base" >
+              
+              <span class="text">Octal:   </span>
+            </div>
+              <input class="number" id="octalText" type="text" value="">
+            </div>
+            
           
 
 
         </div>
         <div class="container2">
             <H1>Base Calculator</H1>
-            <input class="button"   id="octalCa" type="radio" name="baseCa" > <a class="text">Octal:
-            <input class="button"   id="decimalCa" type="radio" name="baseCa"><a class="text"> Decimal:</a>
-            <input class="button"   id="hexadecimalCa" type="radio" name="baseCa" > <a class="text">Hexadecimal:</a>
-            <input class="button"   id="binaryCa" type="radio" name="baseCa"><a class="text" > Binary:</a>
+            <input class="button"   id="octalCa" type="radio" name="baseCa" > <span class="text">Octal:
+            <input class="button"   id="decimalCa" type="radio" name="baseCa"><span class="text"> Decimal:</span>
+            <input class="button"   id="hexadecimalCa" type="radio" name="baseCa" > <span class="text">Hexadecimal:</span>
+            <input class="button"   id="binaryCa" type="radio" name="baseCa"><span class="text" > Binary:</span>
             <br>
 
 
