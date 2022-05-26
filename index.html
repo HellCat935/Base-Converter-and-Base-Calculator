@@ -20,56 +20,38 @@
             <h1>Base Converter</h1>
             <div class="colunm">
                 <div class="line">
-                  <input class="button"
-                   onclick="binary()"
-                    id="binary"
-                    type="button"
-                     name="base" >
+
                 
                    <span class="text">Binary:</span>
                   </div>
-                <input class="number"  id="binaryText" type="text" value="">
+                <input onkeyup="binary()" class="number"  id="binaryText" type="text" value="">
             </div>
             
             <div class="colunm">
               <div class="line">
-                <input class="button"
-                 onclick="decimal()"
-                 id="decimal"
-                 type="button"
-                 name="base">
+
               
                <span class="text"> Decimal:</span>
               </div>
-              <input class="number"  id="decimalText" type="text" value="">
+              <input onkeyup="decimal()" class="number"  id="decimalText" type="text" value="">
             </div>
 
             <div class="colunm">
               <div class="line">
-                <input
-                class="button"
-                onclick="hexadecimal()"
-                id="hexadecimal"
-                type="button"
-                name="base" >
+
               
               <span class="text">Hexadecimal:</span>
             </div>
-              <input class="number" id="hexadecimalText" type="text" value="">
+              <input onkeyup="hexadecimal()" class="number" id="hexadecimalText" type="text" value="">
             </div>
             
             <div class="colunm">
               <div class="line">
-                <input
-                class="button"
-                onclick="octal()"
-                id="octal"
-                type="button"
-                name="base" >
+
               
               <span class="text">Octal:   </span>
             </div>
-              <input class="number" id="octalText" type="text" value="">
+              <input onkeyup="octal()" class="number" id="octalText" type="text" value="">
             </div>
             
           
